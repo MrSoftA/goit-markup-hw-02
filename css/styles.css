@@ -5,8 +5,28 @@ body {
     margin: 0;
 }
 
+<<<<<<< HEAD
 header {
     background-color: #FFFFFF;
+=======
+    /* colors */
+    /* --color-iris: #4D5AE5;
+    --color-ocean: #404BBF;
+    --color-blue:#2E2F42;
+    --color-green:#31D0AA;
+    --color-slate:#434455;
+    --color-lightslate:#8E8F99;
+    --color-cornflower:#E7E9FC;
+    --color-cloud:#F4F4FD;
+    --color-navyblue:#2E2F42;
+    --color-grey:#2E2F42;
+    --color-white:#FFFFFF;
+    --color-dairy:#FCFCFC; */
+/* } */ 
+
+body{
+   font-family: "Roboto", "Raleway";
+>>>>>>> parent of 48c2e26 (hw2_vers1)
 }
 
 nav {
@@ -66,6 +86,7 @@ address {
 .address-list:focus {
     color: #404BBF;
 }
+<<<<<<< HEAD
 
 .big-logo {
     padding: 120px 0;
@@ -236,3 +257,5 @@ footer {
     clip: rect(0 0 0 0);
     overflow: hidden;
 }
+=======
+>>>>>>> parent of 48c2e26 (hw2_vers1)
