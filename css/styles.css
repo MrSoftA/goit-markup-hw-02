@@ -10,6 +10,7 @@ body{
     color: #434455;
 }
 
+/*   Header    */
 header{
     background-color: #FFFFFF;
 }
@@ -25,6 +26,7 @@ nav{
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    color: #2e2f42;
 }
 
 .logo-blue{
@@ -78,6 +80,8 @@ ul{
     color:#404BBF;
 }
 
+/*   Section 1  Logo/button  */
+
 .big-logo{
     width: 1440px;
     height: 600px;
@@ -124,6 +128,8 @@ ul{
     color: #FFFFFF;
 }
 
+/*   Section 2   Characterisitics    */
+
 .text-box-logo{
     font-weight: 500;
     font-size: 20px;
@@ -141,6 +147,8 @@ ul{
     display: grid;
     color: #434455;
 }
+
+/*   Section 3   People    */
 
 .people{
     background-color: #F4F4FD;
@@ -162,7 +170,6 @@ ul{
     width: 264px;
     height: 380px;
     background-color: #FFFFFF;
-    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
 
 .people-logo{
@@ -182,6 +189,8 @@ ul{
     text-align: center;
     color: #434455;
 }
+
+/*   Section 4    Items    */
 
 .item-logo{
     font-weight: 700;
@@ -213,6 +222,8 @@ ul{
     letter-spacing: 0.02em;
     color: #434455;
 }
+
+/*   Footer    */
 
 .foter{
     width: 1440px;
