@@ -1,7 +1,7 @@
 top*,
 *::before,
 *::after{
-    /*box-sizing: border-box;*/
+
 }
 
 body{
@@ -220,7 +220,17 @@ ul{
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #F4F4FD;
+    color: #4d5ae5;
+}
+
+.foter-logo-blue {
+    font-family: "Raleway";
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #f4f4fd;
 }
 
 .footer-text{
