@@ -1,7 +1,7 @@
-*,
+top*,
 *::before,
 *::after{
-    box-sizing: border-box;
+    /*box-sizing: border-box;*/
 }
 
 body{
@@ -26,7 +26,7 @@ nav{
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #2e2f42;
+    color: #4D5AE5;
 }
 
 .logo-blue{
@@ -36,7 +36,7 @@ nav{
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color:#4D5AE5;
+    color:#2e2f42;
 }
 
 .header-list{
@@ -83,15 +83,13 @@ ul{
 /*   Section 1  Logo/button  */
 
 .big-logo{
-    width: 1440px;
-    height: 600px;
     background-color: #2E2F42;
 }
 
 .title{
     font-weight: 700;
     font-size: 56px;
-    line-height: 1.07143;
+    line-height: 1.07;
     letter-spacing: 0.02em;
     text-align: center;
     color: #FFFFFF;
@@ -103,20 +101,14 @@ ul{
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: #ffffff;
-    border-radius: 4px;
-    padding: 16px 32px;
-    width: 169px;
-    height: 56px;
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-    display: flex;
-    align-items: center;
     justify-content: center;
     white-space: nowrap;
     cursor: pointer;
     background-color: #4D5AE5;
 }
 
-.buton:hover{
+.buton:hover,
+.buton:focus{
     background-color: #404BBF;
 }
 
@@ -135,7 +127,6 @@ ul{
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    display: grid;
     color: #2E2F42;
 }
 
@@ -144,7 +135,6 @@ ul{
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    display: grid;
     color: #434455;
 }
 
@@ -165,10 +155,6 @@ ul{
 }
 
 .people-box{
-    border-radius: 0 0 4px 4px;
-    padding: 0px 0px 32px 0px;
-    width: 264px;
-    height: 380px;
     background-color: #FFFFFF;
 }
 
@@ -203,8 +189,6 @@ ul{
 }
 
 .item-box{
-    width: 360px;
-    height: 420px;
 }
 
 .item-title{
@@ -226,8 +210,6 @@ ul{
 /*   Footer    */
 
 .foter{
-    width: 1440px;
-    height: 312px;
     background-color: #2E2F42;
 }
 
